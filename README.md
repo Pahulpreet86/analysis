@@ -1,5 +1,4 @@
 # analysis
-# WriteMe.md
 ### Data Pre-processing   
 Total number of attributes=49    
 Number of attributes with value in single column=19  
