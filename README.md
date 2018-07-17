@@ -23,14 +23,14 @@ After all these processing steps, data frame was saved as CSV file and then used
 
 ---
 ### Stage 1
-##### 1)  % growth of funding between year 2008 & 2009 and corresponding target variable is created. (Stage 1)
+##### 1)  % growth of funding between year 2008 & 2009 and corresponding target variable is created. (Stage 1.ipynb)
 
 ---
 ### Stage 2
 
-##### 1) All the attributes are visualized.
+##### 1) All the attributes are visualized. (Stage2 Visualization.ipynb)
 
-##### 2) Normalized Mutual info score is calculated between all non-funding variable and the target variable. Along with that, additionally, visualization using heat map is provided for the same.
+##### 2) Normalized Mutual info score is calculated between all non-funding variable and the target variable. Along with that, additionally, visualization using heat map is provided for the same. (Stage2 Mutual info Score.ipynb)
 ---
 ### Stage 3
 Following steps were taken for the modeling of the data to be used for prediction:   
@@ -53,3 +53,4 @@ It contains an additional attribute "Period" with the value (for each instance) 
 It contains an additional attribute "Period" with the value (for each instance) equal to 2009 and the target variable with value 1 or 0 (which depend on the increase or decrease in funding from 2009 to 2010 and not contain funding of 2008 and 2010)
 
 ###### These two datasets are concatenated into one and then the labels of the rest of the attributes are converted to dummy variables (1 or 0) and saved as CSV file. (Dataset.csv)
+###### (#Stage 3.ipynb)
